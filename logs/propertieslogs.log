@@ -1,0 +1,122 @@
+[INFO ] 2020-05-18 21:08:45.713 [main] TestBase:26 - 
+********** starting test: *********forgotPasswordTest***********
+
+[INFO ] 2020-05-18 21:08:48.755 [main] TestBase:34 - Chrome Browser is opened
+[INFO ] 2020-05-18 21:08:53.774 [main] TestBase:44 - Navigated to url: https://www.olay.co.uk/en-gb
+[INFO ] 2020-05-18 21:09:00.100 [main] TestBase:116 - Clicked on signIn link
+[INFO ] 2020-05-18 21:09:04.136 [main] TestBase:143 - forgot password's email is entered and clicked on next
+[INFO ] 2020-05-18 21:09:04.136 [main] TestBase:147 - forgot password errormessage is captured
+[INFO ] 2020-05-18 21:09:05.014 [main] TestBase:73 - Chrome browser is closed
+[INFO ] 2020-05-18 21:09:05.015 [main] TestBase:74 - 
+********** Test is completed: *********forgotPasswordTest***********
+
+[INFO ] 2020-05-18 21:09:05.017 [main] TestBase:26 - 
+********** starting test: *********inValidEnglishUkSignInTest***********
+
+[INFO ] 2020-05-18 21:09:07.494 [main] TestBase:34 - Chrome Browser is opened
+[INFO ] 2020-05-18 21:09:12.674 [main] TestBase:44 - Navigated to url: https://www.olay.co.uk/en-gb
+[INFO ] 2020-05-18 21:09:18.252 [main] TestBase:116 - Clicked on signIn link
+[INFO ] 2020-05-18 21:09:20.639 [main] TestBase:125 - logged in to application
+[INFO ] 2020-05-18 21:09:20.640 [main] TestBase:135 - Error message is captured
+[INFO ] 2020-05-18 21:09:21.336 [main] TestBase:73 - Chrome browser is closed
+[INFO ] 2020-05-18 21:09:21.337 [main] TestBase:74 - 
+********** Test is completed: *********inValidEnglishUkSignInTest***********
+
+[INFO ] 2020-05-18 21:09:21.338 [main] TestBase:26 - 
+********** starting test: *********registrationTest***********
+
+[INFO ] 2020-05-18 21:09:23.557 [main] TestBase:34 - Chrome Browser is opened
+[INFO ] 2020-05-18 21:09:28.075 [main] TestBase:44 - Navigated to url: https://www.olay.co.uk/en-gb
+[INFO ] 2020-05-18 21:09:30.437 [main] TestBase:79 - Clicked on Register link
+[INFO ] 2020-05-18 21:09:30.772 [main] TestBase:84 - Email add is entered
+[INFO ] 2020-05-18 21:09:30.955 [main] TestBase:89 - Password is entered
+[INFO ] 2020-05-18 21:09:31.100 [main] TestBase:94 - Confirm password is entered
+[INFO ] 2020-05-18 21:09:31.658 [main] TestBase:104 - Date of birth is selected as: 3/9/1995
+[INFO ] 2020-05-18 21:09:37.588 [main] TestBase:111 - Clicked on submit button
+[INFO ] 2020-05-18 21:09:43.256 [main] TestBase:73 - Chrome browser is closed
+[INFO ] 2020-05-18 21:09:43.256 [main] TestBase:74 - 
+********** Test is completed: *********registrationTest***********
+
+[INFO ] 2020-05-18 21:09:43.258 [main] TestBase:26 - 
+********** starting test: *********validEnglishUkSignInTest***********
+
+[INFO ] 2020-05-18 21:09:45.383 [main] TestBase:34 - Chrome Browser is opened
+[INFO ] 2020-05-18 21:09:49.932 [main] TestBase:44 - Navigated to url: https://www.olay.co.uk/en-gb
+[INFO ] 2020-05-18 21:09:55.873 [main] TestBase:116 - Clicked on signIn link
+[INFO ] 2020-05-18 21:10:00.428 [main] TestBase:125 - logged in to application
+[INFO ] 2020-05-18 21:10:00.429 [main] TestBase:129 - Tittle is captured
+[INFO ] 2020-05-18 21:10:01.147 [main] TestBase:73 - Chrome browser is closed
+[INFO ] 2020-05-18 21:10:01.148 [main] TestBase:74 - 
+********** Test is completed: *********validEnglishUkSignInTest***********
+
+[INFO ] 2020-05-18 21:10:01.152 [main] TestBase:24 - 
+********** starting test: *********chineaseLoginTest***********
+
+[INFO ] 2020-05-18 21:10:03.408 [main] TestBase:34 - Chrome Browser is opened
+[INFO ] 2020-05-18 21:10:08.430 [main] TestBase:44 - Navigated to url: https://www.olay.co.uk/en-gb
+[INFO ] 2020-05-18 21:10:12.352 [main] TestBase:89 - navigated to chinease page
+[INFO ] 2020-05-18 21:10:16.476 [main] TestBase:79 - Logged into application
+[INFO ] 2020-05-18 21:10:22.148 [main] TestBase:49 - Chrome browser is closed
+[INFO ] 2020-05-18 21:10:22.149 [main] TestBase:50 - 
+********** Test is completed: *********chineaseLoginTest***********
+
+[INFO ] 2020-05-18 21:10:22.150 [main] TestBase:24 - 
+********** starting test: *********chineaseRegistrationTest***********
+
+[INFO ] 2020-05-18 21:10:24.510 [main] TestBase:34 - Chrome Browser is opened
+[INFO ] 2020-05-18 21:10:28.772 [main] TestBase:44 - Navigated to url: https://www.olay.co.uk/en-gb
+[INFO ] 2020-05-18 21:10:32.839 [main] TestBase:89 - navigated to chinease page
+[INFO ] 2020-05-18 21:10:35.219 [main] TestBase:84 - Clicked on register link
+[INFO ] 2020-05-18 21:10:36.820 [main] TestBase:105 - Registration form in filled from JSON file
+[INFO ] 2020-05-18 21:10:42.575 [main] TestBase:49 - Chrome browser is closed
+[INFO ] 2020-05-18 21:10:42.575 [main] TestBase:50 - 
+********** Test is completed: *********chineaseRegistrationTest***********
+
+[INFO ] 2020-05-18 21:10:43.792 [main] TestBase:30 - 
+********** starting test: *********registerationInSpenish***********
+
+[INFO ] 2020-05-18 21:10:45.945 [main] TestBase:34 - Chrome Browser is opened
+[INFO ] 2020-05-18 21:10:50.242 [main] TestBase:44 - Navigated to url: https://www.olay.co.uk/en-gb
+[INFO ] 2020-05-18 21:10:52.758 [main] TestBase:95 - navigated to spenish page
+[INFO ] 2020-05-18 21:10:55.159 [main] TestBase:78 - Clicked on registration link
+[INFO ] 2020-05-18 21:10:59.904 [main] TestBase:120 - Filled the registration page from excel
+[INFO ] 2020-05-18 21:11:08.591 [main] TestBase:61 - Chrome browser is closed
+[INFO ] 2020-05-18 21:11:08.592 [main] TestBase:62 - 
+********** Test is completed: *********registerationInSpenish***********
+
+[INFO ] 2020-05-18 21:11:08.593 [main] TestBase:30 - 
+********** starting test: *********spenishSignInTest***********
+
+[INFO ] 2020-05-18 21:11:10.932 [main] TestBase:34 - Chrome Browser is opened
+[INFO ] 2020-05-18 21:11:15.512 [main] TestBase:44 - Navigated to url: https://www.olay.co.uk/en-gb
+[INFO ] 2020-05-18 21:11:17.980 [main] TestBase:95 - navigated to spenish page
+[INFO ] 2020-05-18 21:11:20.558 [main] TestBase:83 - clicked on signin link
+[INFO ] 2020-05-18 21:11:22.692 [main] TestBase:90 - logged in into site: username=mithunkr0123@gmail.com password=testdata1234
+[INFO ] 2020-05-18 21:11:23.347 [main] TestBase:61 - Chrome browser is closed
+[INFO ] 2020-05-18 21:11:23.348 [main] TestBase:62 - 
+********** Test is completed: *********spenishSignInTest***********
+
+[INFO ] 2020-05-18 21:11:23.350 [main] TestBase:32 - 
+********** starting test: *********germanSignInTest***********
+
+[INFO ] 2020-05-18 21:11:25.588 [main] TestBase:34 - Chrome Browser is opened
+[INFO ] 2020-05-18 21:11:29.836 [main] TestBase:44 - Navigated to url: https://www.olay.co.uk/en-gb
+[INFO ] 2020-05-18 21:11:32.599 [main] TestBase:87 - Navigated to german page
+[INFO ] 2020-05-18 21:11:34.967 [main] TestBase:97 - CLicked on signin link
+[INFO ] 2020-05-18 21:11:37.139 [main] TestBase:104 - logged in to site: Username= mithunkr0123@gmail.com Password= testdata1234
+[INFO ] 2020-05-18 21:11:37.784 [main] TestBase:62 - Chrome browser is closed
+[INFO ] 2020-05-18 21:11:37.785 [main] TestBase:63 - 
+********** Test is completed: *********germanSignInTest***********
+
+[INFO ] 2020-05-18 21:11:37.890 [main] TestBase:32 - 
+********** starting test: *********registerationInGerman***********
+
+[INFO ] 2020-05-18 21:11:40.053 [main] TestBase:34 - Chrome Browser is opened
+[INFO ] 2020-05-18 21:11:44.603 [main] TestBase:44 - Navigated to url: https://www.olay.co.uk/en-gb
+[INFO ] 2020-05-18 21:11:47.226 [main] TestBase:87 - Navigated to german page
+[INFO ] 2020-05-18 21:11:49.583 [main] TestBase:92 - Clicked on registration link
+[INFO ] 2020-05-18 21:11:52.437 [main] TestBase:133 - Registration form is filled from excel sheet
+[INFO ] 2020-05-18 21:12:01.134 [main] TestBase:62 - Chrome browser is closed
+[INFO ] 2020-05-18 21:12:01.135 [main] TestBase:63 - 
+********** Test is completed: *********registerationInGerman***********
+

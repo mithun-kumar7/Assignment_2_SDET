@@ -1,0 +1,11 @@
+{
+	"Surname": "kumar",
+	"firstname": "Munna",
+	"EmailAddress": "munna@gmail.com",
+	"phoneNumber": "1234567890",
+	"password": "testdata1234",
+	"cnfPassword": "testdata1234",
+	"address": "motihari",
+	"month": "03",
+	"year": "1995"
+}
